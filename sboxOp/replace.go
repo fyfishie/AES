@@ -1,6 +1,6 @@
 package sboxOp
 
-import "AES/lib"
+import "gitee.com/fyfishie/AES/lib"
 
 func Replace(m [16]byte) (c [16]byte) {
 	c = [16]byte{}

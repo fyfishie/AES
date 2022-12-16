@@ -1,10 +1,10 @@
 package AES
 
 import (
-	"AES/lineShift"
-	"AES/mixCloumn"
-	"AES/roundKey"
-	"AES/sboxOp"
+	"gitee.com/fyfishie/AES/lineShift"
+	"gitee.com/fyfishie/AES/mixCloumn"
+	"gitee.com/fyfishie/AES/roundKey"
+	"gitee.com/fyfishie/AES/sboxOp"
 )
 
 func E(M [16]byte, KEY [16]byte) (C [16]byte) {

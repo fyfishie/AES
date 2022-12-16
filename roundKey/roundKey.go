@@ -1,6 +1,6 @@
 package roundKey
 
-import "AES/sboxOp"
+import "gitee.com/fyfishie/AES/sboxOp"
 
 var TTable = [10][4]byte{
 	{0x01, 0x00, 0x00, 0x00}, {0x02, 0x00, 0x00, 0x00},
